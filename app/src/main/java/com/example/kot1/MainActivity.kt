@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     val mensaje = "Hola, kotlin"
     val nombre = "Irvin"
     var msgPersonalizado = "Presiona el boton"
-    var bandera = false
+    var bandera = false //Esta es una bandera
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
